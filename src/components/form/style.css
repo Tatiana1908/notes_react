@@ -1,0 +1,12 @@
+.form-wrap{
+    border: 1px solid;
+    padding: 20px;
+}
+input[type="text"], textarea{
+    width: 99%;
+    margin: 10px 0;
+}
+
+.alert{
+    color: indianred;
+}

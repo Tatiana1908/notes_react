@@ -1,0 +1,28 @@
+.to-do-item{
+    width: 24%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    position: relative;
+}
+.to-do-item:hover .removeBtn{
+    display: block;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.removeBtn{
+    position: absolute;
+    transform: rotate(45deg);
+    right: 20px;   
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
